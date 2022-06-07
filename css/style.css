@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Contenedor{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100%;
+    width: 100%;
+}
+  
+  .Horario{
+    text-align: center;
+  }
+  
+  .thBloque{
+    width: 50px;
+  }
+  
+  table{
+    width: 95%;
+    height: 75%;
+  }
+  
+  table, td, th, .thDay{
+    padding: 5px;
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+  
+  .thDay, .tdBloque0{
+    font-size: 20px;
+    background-color: yellow;
+  }
+  
+  caption{
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .Insert{
+      margin: 25px;
+  }
+  
+  /*Menu*/
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li .active{
+    float: left;
+  }
+
+  li .right {
+      float: right;
+      background-color: blue; 
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  
